@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Resume Of Karim</string>
+    <string name="name_resume">Resume Of \n Fazla Karim</string>
+    <string name="name">Name : Fazla Karim</string>
+    <string name="all_info"> <b> Present Address:</b>
+        10/6, Block - F, South Bonosree, Dhaka - 1219\n\n
+        Phone: 0162200041
+    </string>
+
+    <string-array name="skill_list">
+
+        <item> Java   </item>
+        <item> Android Studio   </item>
+        <item> HTML   </item>
+        <item> Php   </item>
+        <item> Ps   </item>
+        <item> Ai   </item>
+        <item> Phython   </item>
+        <item> C++   </item>
+
+
+
+
+    </string-array>
+
+
+
+
+    <string name="carriar_object">To provide the better service and share my experience in an organization and help to achieve the strategy and objective. As well as enhancing the knowledge about competitive working environment which would be developed and sound my experience and career. </string>
+</resources>

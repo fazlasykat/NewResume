@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#e6dddd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/name_resume"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:padding="3dp"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:src="@drawable/fazla_karim_sykat"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical">
+                <TextView
+                    android:padding="4sp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:textAlignment="viewStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/name"
+                    />
+
+                <TextView
+                    android:textSize="15sp"
+                    android:padding="10dp"
+                    android:textColor="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:text="@string/all_info"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingLeft="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="Career Objective :"
+                android:textSize="18sp"
+                android:textColor="#000"/>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+                <TextView
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:text="@string/carriar_object"
+                    android:textSize="14sp"
+                    android:textColor="#000"/>
+
+
+
+            </ScrollView>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:text="My Skills:"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            <ListView
+                android:id="@+id/listViewId"
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:divider="#000"
+                android:dividerHeight="2dp"></ListView>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnId"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contac"
+            android:textAllCaps="false"/>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>
